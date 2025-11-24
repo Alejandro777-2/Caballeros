@@ -8,8 +8,7 @@ public class Caballero {
     int nivelDificultad;
     int recompensa;
 
-    public Caballero(int iD, String nombre,
-                     String rango, String constelacion,
+    public Caballero(int iD, String nombre, String rango, String constelacion,
                      int nivelPoder, String mision,
                      int nivelDificultad, int recompensa) {
         this.iD = iD;

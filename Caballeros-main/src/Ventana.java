@@ -64,7 +64,7 @@ public class Ventana {
                 String nombre = txtnM.getText() ;
                 String rango = cbmrM.getSelectedItem().toString();
                 String constelacion= cbmcM.getSelectedItem().toString();
-                int nivelPoder = (int) spnNivelP.getValue();
+                int nivelPoder = (int) spnpM.getValue();
                 String mision = txtmM.getText();
                 int nivelDificultad= (int) spnNivelD.getValue();
                 int recompensa= (int) spnrM.getValue();
@@ -89,7 +89,6 @@ public class Ventana {
                 int aux = Integer.parseInt(txtIDaporte.getText().toString());
 
                 for(Aporte a : reinoDeAtenea.getAportes()){
-
                     if(aux == a.getCaballero().getiD() ){
                         txtAporte.setText(a.toString());
                     }
